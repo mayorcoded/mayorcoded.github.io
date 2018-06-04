@@ -1,0 +1,17 @@
+---
+layout: post-default
+---
+
+<div class="article">
+
+    <h1 class="post-title" style="font-size: 70px">{{ page.title }}</h1>
+
+    <p class="post-meta">
+        Posted on {{page.date|date:"%b %d, %Y"}} &nbsp;&bull;&nbsp;
+        <!-- <a href=""> --><span class="label label-default">{{ page.subject }}</span> <!--</a>-->
+        <!-- <a href=""> --><span class="label label-default">{{ page.topic }}</span> <!--</a>-->
+    </p>
+    <div class="post-entry">
+        {{ page.content}}
+    </div>
+</div>
