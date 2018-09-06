@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "First Blog Post!"
+title: "Learn Truffle!"
 date:  2018-06-01 17:39:24 +0100
-image: assets/img/wall.jpg
+image: https://cdn-images-1.medium.com/max/1200/1*P-T7USHsmPYOSBorXAqXYA.png
 permalink: /post/blochain/title-title-title
 categories: Blockchain
 description: Understanding the power of functions
