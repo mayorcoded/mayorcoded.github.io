@@ -1,14 +1,11 @@
-<base>
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-    <title>Mayowa Tudonu</title>
+    <title>{{include.title}}</title>
 
     <base href="/">
-    <meta name="author" content="Mayowa Tudonu" />
-
-    <meta name="generator" content="Hugo 0.31.1" />
 
     <link href="index.xml" rel="alternate" type="application/rss+xml" title="Mayowa Tudonu" />
     <link href="index.xml" rel="feed" type="application/rss+xml" title="Mayowa Tudonu" />
@@ -20,9 +17,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
 
-    <!-- <meta property="og:title" content="Mayowa Tudonu" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="//" />
-    <meta property="og:image" content="{{'/assets/img/mayowa.jpeg' | relative_url}}" /> -->
-
+    <meta name="author" content="Mayowa Tudonu" />
+    <meta name="generator" content="Hugo 0.31.1" />
+    <meta name="title" content="{{include.title}}">
+    <meta property="og:title" content="{{include.title}}" />
+    <meta property="og:description" content="{{include.excerpt}}" />
+    <meta property="og:url" content="{{include.permalink}}" />
+    <meta property="og:image" content="{{ include.image | relative_url}}" />
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Mayowa Tudonu">
+    <!--<meta property="og:type" content="website" />-->
 </head>
