@@ -3,7 +3,7 @@ layout: post
 title: "Learn Truffle!"
 date:  2018-06-01 17:39:24 +0100
 image: https://cdn-images-1.medium.com/max/1200/1*P-T7USHsmPYOSBorXAqXYA.png
-permalink: /post/blochain/learn-truffle
+permalink: /blochain/learn-truffle
 categories: Blockchain
 description: Understanding the power of functions
 excerpt: functions requires using lots of brackets, which can be tedious and are a major source of error for evaluating expressions by hand. To simplify expressions, you can omit brackets when it is clear what the intention of the function is. Particularly, a function application can omit the brackets surrounding each individual parameter and assume the function is applied to the nearest argument. So, instead of expressing a function of three arguments as
