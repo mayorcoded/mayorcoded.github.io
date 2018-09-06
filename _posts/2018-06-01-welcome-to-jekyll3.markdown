@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "First Blog Post!"
+title: "Second Blog Post!"
 date:  2018-06-01 17:39:24 +0100
 image: assets/img/wall.jpg
 permalink: /post/blochain/how-to-build-a-dapp
