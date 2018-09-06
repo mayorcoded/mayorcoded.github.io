@@ -2,7 +2,7 @@
 layout: post
 title: "Second Blog Post!"
 date:  2018-06-01 17:39:24 +0100
-image: assets/img/wall.jpg
+image: assets/img/wall-min.jpg
 permalink: /post/blochain/how-to-build-a-dapp
 categories: Blockchain
 description: Understanding the power of functions
