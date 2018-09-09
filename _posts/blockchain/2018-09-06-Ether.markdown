@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+identifier: 60c6e78828e06cc8765206daf71d1041
 title: "Ether!"
 date:  2018-06-01 17:39:24 +0100
 image: assets/img/wall-min.jpg
