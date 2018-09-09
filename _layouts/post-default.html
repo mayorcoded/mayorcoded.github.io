@@ -34,27 +34,30 @@ image=page.image
 
             <div class="disqus-comments">
                 <div id="disqus_thread"></div>
-                <script>
 
-                    var disqus_config = function () {
-                        this.page.title = '{page.title}';
-                        this.page.url = '{page.permalink}';
-                        this.page.identifier = 'kvjbjsdf'; //identifier is generated from ()hash of url
-                    };
+                {% if page.comments %}
+                    <script>
 
-                    (function() {
+                        var disqus_config = function () {
+                            this.page.title = '{page.title}';
+                            this.page.url = '{page.permalink}';
+                            this.page.identifier = 'kvjbjsdf'; //identifier is generated from ()hash of url
+                        };
 
-                        if(window.location.hostname === "localhost"){
-                            return;
-                        }
+                        (function() {
 
-                        var d = document, s = d.createElement('script');
-                        s.src = 'https://mayowatudonu.disqus.com/embed.js';
-                        s.setAttribute('data-timestamp', +new Date());
-                        (d.head || d.body).appendChild(s);
-                    })();
-                </script>
-                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            if(window.location.hostname === "localhost"){
+                                return;
+                            }
+
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://mayowatudonu.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                {% endif %}
 
             </div>
         </div>
