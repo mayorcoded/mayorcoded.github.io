@@ -39,8 +39,10 @@ image=page.image
 
                             var disqus_config = function () {
                                 this.page.title = '{{page.title}}';
-                                this.page.url = 'https://www.mayowatudonu.com/post/blochain/title-title-ether';
-                                this.page.identifier = 'kvjbjsdf'; //identifier is generated from ()hash of url
+                                this.page.url = '{{site.url}}{{page.permalink}}';
+
+                                //identifier is generated from (https://www.md5hashgenerator.com/) hash of post url
+                                this.page.identifier = '{{page.identifier}}';
                             };
 
                             (function() {
