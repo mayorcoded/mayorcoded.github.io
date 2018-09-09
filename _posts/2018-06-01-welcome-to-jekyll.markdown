@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Learn Truffle!"
+comments: true
+identifier: 60c6e78828e06cc8765206daf71d10417
 date:  2018-06-01 17:39:24 +0100
 image: https://cdn-images-1.medium.com/max/1200/1*P-T7USHsmPYOSBorXAqXYA.png
 permalink: /blochain/learn-truffle
