@@ -32,34 +32,33 @@ image=page.image
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             {{ content}}
 
-            <div class="disqus-comments">
-                <div id="disqus_thread"></div>
+            {% if page.comments %}
+                <div class="disqus-comments">
+                    <div id="disqus_thread"></div>
+                        <script>
 
-                {% if page.comments %}
-                    <script>
+                            var disqus_config = function () {
+                                this.page.title = '{page.title}';
+                                this.page.url = '{page.permalink}';
+                                this.page.identifier = 'kvjbjsdf'; //identifier is generated from ()hash of url
+                            };
 
-                        var disqus_config = function () {
-                            this.page.title = '{page.title}';
-                            this.page.url = '{page.permalink}';
-                            this.page.identifier = 'kvjbjsdf'; //identifier is generated from ()hash of url
-                        };
+                            (function() {
 
-                        (function() {
+                                if(window.location.hostname === "localhost"){
+                                    return;
+                                }
 
-                            if(window.location.hostname === "localhost"){
-                                return;
-                            }
+                                var d = document, s = d.createElement('script');
+                                s.src = 'https://mayowatudonu.disqus.com/embed.js';
+                                s.setAttribute('data-timestamp', +new Date());
+                                (d.head || d.body).appendChild(s);
+                            })();
+                        </script>
+                        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-                            var d = document, s = d.createElement('script');
-                            s.src = 'https://mayowatudonu.disqus.com/embed.js';
-                            s.setAttribute('data-timestamp', +new Date());
-                            (d.head || d.body).appendChild(s);
-                        })();
-                    </script>
-                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                {% endif %}
-
-            </div>
+                </div>
+            {% endif %}
         </div>
 
     </div>
