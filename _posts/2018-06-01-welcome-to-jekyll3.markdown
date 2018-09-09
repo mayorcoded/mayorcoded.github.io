@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Second Blog Post!"
+comments: true
+identifier: 60c6e78828e06cc8765206daf71d10417
 date:  2018-06-01 17:39:24 +0100
 image: assets/img/wall-min.jpg
 permalink: /post/blochain/how-to-build-a-dapp
