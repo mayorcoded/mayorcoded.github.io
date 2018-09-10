@@ -9,59 +9,13 @@ permalink=page.permalink
 image=page.image
 %}
 
-<header class="header-section ">
-    <div class="intro-header no-img">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="page-heading" style="margin: 70px">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
 
 <body>
 
 {% include navigation.html %}
 
-<div role="main" class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            {{ content}}
-
-            {% if page.comments %}
-                <div class="disqus-comments">
-                    <div id="disqus_thread"></div>
-                        <script>
-
-                            var disqus_config = function () {
-                                this.page.title = '{{page.title}}';
-                                this.page.url = '{{site.url}}{{page.permalink}}';
-                                this.page.identifier = '{{page.identifier}}';
-                            };
-
-                            (function() {
-
-                                if(window.location.hostname === "localhost"){
-                                    return;
-                                }
-
-                                var d = document, s = d.createElement('script');
-                                s.src = 'https://mayowatudonu.disqus.com/embed.js';
-                                s.setAttribute('data-timestamp', +new Date());
-                                (d.head || d.body).appendChild(s);
-                            })();
-                        </script>
-                        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-                </div>
-            {% endif %}
-        </div>
-
-    </div>
+<div role="main" class="container main-content">
+    {{ content}}
 </div>
 {% include footer.html %}
 
