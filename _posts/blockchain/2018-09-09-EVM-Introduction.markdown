@@ -3,7 +3,7 @@ layout: post
 title: "A Deep Dive into the Ethereum Virtual Machine (EVM) - part 1: Introduction"
 comments: true
 identifier: 4ac39e50e01ccd7dcae8634462834efb
-date:  2018-09-09 00:00:00 +0100
+date:  2018-09-09 00:00:00 
 image: https://preview.ibb.co/bM7C9p/compressed_evm.png
 permalink: /blockchain/deep-dive-into-evm-intro
 categories: Blockchain
