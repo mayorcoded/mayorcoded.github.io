@@ -1,17 +1,37 @@
 ---
 layout: post-default
 ---
+<header class="header-section ">
+    <div class="intro-header no-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>{{ page.title }}</h1>
 
-<div class="article">
+                        <p class="post-meta">
+                            Posted on {{page.date|date:"%b %d, %Y"}} &nbsp;&bull;&nbsp;
+                            <span class="label label-default" style="background-color: #337ab7;">{{ page.subject }}</span>
+                            <span class="label label-default" style="background-color: #337ab7;">{{ page.topic }}</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <article role="main">
+                {{ page.content}}
+            </article>
+            <div class="text-center">
+                <p>Like this post? Kindly recommend in the comments section below 🙂</p>
+            </div>
 
-    <h1 class="post-title" style="font-size: 70px">{{ page.title }}</h1>
-
-    <p class="post-meta">
-        Posted on {{page.date|date:"%b %d, %Y"}} &nbsp;&bull;&nbsp;
-        <!-- <a href=""> --><span class="label label-default" style="background-color: #337ab7;">{{ page.subject }}</span> <!--</a>-->
-        <!-- <a href=""> --><span class="label label-default" style="background-color: #337ab7;">{{ page.topic }}</span> <!--</a>-->
-    </p>
-    <div class="post-entry">
-        {{ page.content}}
+            {% include disqus.html %}
+        </div>
     </div>
 </div>
+
