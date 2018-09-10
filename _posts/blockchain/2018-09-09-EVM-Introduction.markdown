@@ -28,8 +28,8 @@ Virtual machines may be generally categorized into two types:
 - System virtual machines: Virtual machines that provide the functionality needed to 
 execute an entire operating system on a host machine.
 - Process virtual machines: Virtual machines that are designed to execute programs 
-in a platform-independent environment. They can also be referred to as Managed 
-Runtime Environments as they manage their own runtime environment and processes on 
+in a platform-independent environment. They can also be referred to as **_Managed 
+Runtime Environments_** as they manage their own runtime environment and processes on 
 the host machine. 
 The EVM may be loosely classified as a process virtual machine. 
 
@@ -133,13 +133,13 @@ These topics cannot be exhausted in one article to avoid overwhelming the audien
 The Ethereum Virtual Machine is at the heart of the Ethereum protocol, performing 
 various functions including; executing contracts with arbitrary complexity, managing
 state and transition of the blockchain, and ultimately securing the blockchain. Having 
-a deeper understanding of the EVM would make better Blockchain developers in the ecosystem.
+a deeper understanding of the EVM would make better blockchain developers in the blockchain ecosystem.
 I hope you enjoyed reading this article as much as I enjoyed writing it.🙂 
 
 ### References:
 - [Ethereum Yellow Paper](https://github.com/ethereum/yellowpaper)
-- [Ethereum Development](https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial#gas)
-- [Ether docs Contract and Transactions](http://ethdocs.org/en/latest/contracts-and-transactions/developer-tools.html#the-evm)
+- [Ethereum Development Guide](https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial#gas)
+- [Etherdocs Contract and Transactions](http://ethdocs.org/en/latest/contracts-and-transactions/developer-tools.html#the-evm)
 
 Your comments and feedback are appreciated!
 
