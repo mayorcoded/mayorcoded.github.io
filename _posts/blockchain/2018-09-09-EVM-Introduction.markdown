@@ -14,9 +14,9 @@ subject: Blockchain
 ---
 This is the first article of a 4-part series on the EVM;
 1. Part 1: [Introduction to the EVM](https://www.mayowatudonu.com/post/blochain/deep-dive-into-evm-intro)
-2. Part 2: Memory and Storage on the EVM
-4. Part 2: Execution Model of the EVM
-4. Part 3: Relationship of the EVM with High-level contract-oriented languages
+2. Part 2: [Memory and Storage on the EVM](https://www.mayowatudonu.com/post/blochain/deep-dive-into-evm-memory-and-storage)
+3. Part 3: Execution Model of the EVM
+4. Part 4: Relationship of the EVM with High-level contract-oriented languages
 
 
 ![evm-architecture](https://preview.ibb.co/bM7C9p/compressed_evm.png)
