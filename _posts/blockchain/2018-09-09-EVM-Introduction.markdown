@@ -140,7 +140,5 @@ I hope you enjoyed reading this article as much as I enjoyed writing it.🙂
 - [Ethereum Yellow Paper](https://github.com/ethereum/yellowpaper)
 - [Ethereum Development Guide](https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial#gas)
 - [Etherdocs Contract and Transactions](http://ethdocs.org/en/latest/contracts-and-transactions/developer-tools.html#the-evm)
-
-
-[virtual-machine]: https://en.wikipedia.org/wiki/Virtual_machine
+- [virtual-machine](https://en.wikipedia.org/wiki/Virtual_machine)
 
