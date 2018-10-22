@@ -14,7 +14,7 @@ subject: Blockchain
 ---
 This is the first article of a 4-part series on the EVM;
 1. Part 1: [Introduction to the EVM](/blochain/deep-dive-into-evm-intro)
-2. Part 2: [Memory and Storage on the EVM](/post/blochain/deep-dive-into-evm-memory-and-storage)
+2. Part 2: [Memory and Storage on the EVM](/blochain/deep-dive-into-evm-memory-and-storage)
 3. Part 3: Execution Model of the EVM
 4. Part 4: Relationship of the EVM with High-level contract-oriented languages
 
