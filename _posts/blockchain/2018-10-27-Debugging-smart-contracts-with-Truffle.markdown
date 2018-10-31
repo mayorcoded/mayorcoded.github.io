@@ -133,7 +133,7 @@ into 6 parts:
 - The state variables: The state variables `owner` and `skuCount` store the address of the owner and the count of food items 
 added to the FoodCart respectively. The mapping `foodItems` maps skus to food items.
 
-- The enum: The `State` enum is a user-defined date type that holds the state of the food items on the cart.
+- The enum: The `State` enum is a user-defined data type that holds the state of the food items on the cart.
 The types listed in the enum are explicitly convertible to and from integers, i.e (`ForSale = 0`, `Sold = 1`).
 
 - The events: The events `ForSale` and `Sold` log the details of the food items that are put on sale or sold. These events
