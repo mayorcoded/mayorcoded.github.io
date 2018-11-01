@@ -106,6 +106,8 @@ this example without any issues:
 2. Solidity compiler version 0.4.24 or above  
 3. Private blockchain (Ganache CLI v6.1.6 or above)
 
+The repository for this article can be found [here](https://github.com/mayorcoded/FoodCartTutorial), just in case you
+want to follow through the debugging process without coding the smart contract.
 <br>
 #### `Step 1: Building the smart contract`
 - Let's start by creating a directory for this project and building the smart contract
