@@ -253,7 +253,7 @@ With this address, we can obtain the value of the first item in the mapping from
 $ truffle(develop)> web3.eth.getStorageAt(storeAge.address, first_item_addr)
 $ '0x37'
 ```
-`37` is the hexadecimal representation 77. This also confirms how mapping are mapped in storage.
+`37` is the hexadecimal representation 55. This also confirms how mapping are mapped in storage.
 
 ### Summary
 In this article, we expounded the details data management on the EVM. The EVM uses the stack to perform computations,
