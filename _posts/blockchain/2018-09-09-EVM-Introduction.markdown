@@ -23,7 +23,7 @@ This is the first article of a 4-part series on the EVM;
 
 In computing, a virtual machine is an emulation of a computer system which may be 
 implemented as a specialized hardware, software or a combination of both. 
-(source: [wikipedia][virtual-machine])
+(source: [wikipedia](https://en.wikipedia.org/wiki/Virtual_machine))
 Virtual machines may be generally categorized into two types: 
 - System virtual machines: Virtual machines that provide the functionality needed to 
 execute an entire operating system on a host machine.

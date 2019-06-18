@@ -45,7 +45,7 @@ There are two types of Ethereum accounts, and they share the same address space 
   
 ![evm-accounts](https://preview.ibb.co/cnk1XU/Ethereum_Accounts.png)
 
-##### _**Externally owned account vs Contract account (source: [medium](https://medium.com))**_
+##### _**Externally owned account vs Contract account (source: [medium](https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369))**_
                              
 The foregoing explanation highlights the fact that storage and memory on the EVM is always connected to an account. Let's
 go ahead and discuss each of the storage locations.
