@@ -140,7 +140,7 @@ must be paid and this cost grows quadratically. The gas cost for memory operatio
 
 ![memory](https://preview.ibb.co/m2yzy0/memory.png)
 
-##### _**Gas cost for evm memory operations**_
+##### _**Gas cost for evm memory operations (Source: Ethereum Yellow Paper)**_
 The EVM provides three opcodes to interact with the memory:
 
 | **Memory operation** |  **Description** |
@@ -176,7 +176,7 @@ The cost of each of these operations is highlighted in the diagram below.
  
 ![storage](https://preview.ibb.co/fENtaf/storage.png)
 
-##### _**Gas cost for evm storage operations**_
+##### _**Gas cost for evm storage operations (Source: Ethereum Yellow Paper)**_
 
 In Solidity, storage memory is represented as state variables declared outside of user-defined functions, within the 
 context of the contract. Let's have an example code to understand how this works. The sample contract below stores
@@ -217,6 +217,8 @@ the hash of `n(keccak256(n))`. For Mappings, their slots are unused, but the val
 located at a slot derived from `keccak256(n, p)`, where `n` is the slot number the mapping is meant to fill originally, 
 and `p` is the index of the item on the mapping which we would like to locate. The contract above will be deployed and 
 its storage structure will be tested as shown below:
+
+![evm-storage](https://i.ibb.co/HGLL9M0/EVM-storage.png)
 
 First, let's compile the contract and create a new contract instance using Truffle. [Truffle](https://truffleframework.com/) is a framework for building
 dApps (Distributed Applications). It provides functionalities such as compiling, debugging, and testing smart contracts out of the box. 
