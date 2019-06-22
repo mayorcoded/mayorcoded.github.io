@@ -219,6 +219,7 @@ and `p` is the index of the item on the mapping which we would like to locate. T
 its storage structure will be tested as shown below:
 
 ![evm-storage](https://i.ibb.co/HGLL9M0/EVM-storage.png)
+##### _**Storage structure of the StoreAge contract**_
 
 First, let's compile the contract and create a new contract instance using Truffle. [Truffle](https://truffleframework.com/) is a framework for building
 dApps (Distributed Applications). It provides functionalities such as compiling, debugging, and testing smart contracts out of the box. 
