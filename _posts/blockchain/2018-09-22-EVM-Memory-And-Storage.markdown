@@ -218,7 +218,7 @@ located at a slot derived from `keccak256(n, p)`, where `n` is the slot number t
 and `p` is the index of the item on the mapping which we would like to locate. The contract above will be deployed and 
 its storage structure will be tested as shown below:
 
-![evm-storage](https://i.ibb.co/HGLL9M0/EVM-storage.png)
+![evm-storage](https://albumizr.com/ia/57fc596e67601bdc3bb48695fd233b76.jpg)
 ##### _**Storage structure of the StoreAge contract**_
 
 First, let's compile the contract and create a new contract instance using Truffle. [Truffle](https://truffleframework.com/) is a framework for building
